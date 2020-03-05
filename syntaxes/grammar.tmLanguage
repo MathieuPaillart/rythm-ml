@@ -28,13 +28,13 @@
       <array> 
         <dict>
           <key>match</key>
-          <string>(partition|replace|grid|bpm|bpb|composition|bar|variation|section)</string>
+          <string>( |\t)?(partition|replace|grid|bpm|bpb|composition|bar|variation|section) </string>
           <key>name</key>
           <string>keyword.control.rythmML</string>
         </dict>
         <dict>
           <key>match</key>
-          <string>(on half|on quarter|on third|on beat|in beat|with velocity|with delay|section)</string>
+          <string>( |\t)?(on half|on quarter|on third|on beat|in beat|with velocity|with delay|section) </string>
           <key>name</key>
           <string>storage.modifier.rythmML</string>
         </dict>
