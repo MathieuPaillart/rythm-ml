@@ -4,11 +4,11 @@
 <!-- Generated via Iro -->
 <dict>
   <key>fileTypes</key>
-  <array> 
-    <string>mysample</string>
+   <array> 
+    <string>rythm</string>
    </array>
   <key>name</key>
-  <string>mysample</string>
+  <string>rythmML</string>
   <key>patterns</key>
   <array> 
     <dict>
@@ -30,19 +30,19 @@
           <key>match</key>
           <string>(partition|replace|grid|bpm|bpb|composition|bar|variation|section)</string>
           <key>name</key>
-          <string>keyword.mysample</string>
+          <string>keyword.control.rythmML</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(on half|on quarter|on third|on beat|in beat|with velocity|with delay|section)</string>
           <key>name</key>
-          <string>text.mysample</string>
+          <string>storage.modifier.rythmML</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(\b[a-zA-Z]([a-zA-Z0-9])*)</string>
           <key>name</key>
-          <string>comment.mysample</string>
+          <string>string.rythmML</string>
         </dict>
         <dict>
           <key>include</key>
@@ -56,7 +56,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string></string>
             </dict>
           </dict>
           <key>patterns</key>
@@ -73,7 +73,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string></string>
             </dict>
           </dict>
         </dict>
@@ -85,11 +85,11 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string>punctuation.rythmML</string>
             </dict>
           </dict>
           <key>contentName</key>
-          <string>text.mysample</string>
+          <string>text.rythmML</string>
           <key>end</key>
           <string>(\&quot;)</string>
           <key>endCaptures</key>
@@ -97,7 +97,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string>punctuation.rythmML</string>
             </dict>
           </dict>
         </dict>
@@ -109,7 +109,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string>punctuation.rythmML</string>
             </dict>
           </dict>
           <key>patterns</key>
@@ -126,7 +126,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>punctuation.mysample</string>
+              <string>punctuation.rythmML</string>
             </dict>
           </dict>
         </dict>
@@ -138,7 +138,7 @@
           <key>match</key>
           <string>(//.*)</string>
           <key>name</key>
-          <string>comment.mysample</string>
+          <string>comment.rythmML</string>
         </dict>
        </array>
     </dict>
@@ -154,13 +154,13 @@
           <key>match</key>
           <string>(-)</string>
           <key>name</key>
-          <string>invalid.mysample</string>
+          <string>invalid.rythmML</string>
         </dict>
         <dict>
           <key>match</key>
           <string>(\.\.)</string>
           <key>name</key>
-          <string>invalid.mysample</string>
+          <string>invalid.rythmML</string>
         </dict>
        </array>
     </dict>
@@ -182,7 +182,7 @@
           <key>match</key>
           <string>(,)</string>
           <key>name</key>
-          <string>punctuation.mysample</string>
+          <string>punctuation.rythmML</string>
         </dict>
        </array>
     </dict>
@@ -198,11 +198,11 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>comment.mysample</string>
+              <string>comment.rythmML</string>
             </dict>
           </dict>
           <key>contentName</key>
-          <string>comment.mysample</string>
+          <string>comment.rythmML</string>
           <key>end</key>
           <string>(\*/)</string>
           <key>endCaptures</key>
@@ -210,7 +210,7 @@
             <key>1</key>
             <dict>
               <key>name</key>
-              <string>comment.mysample</string>
+              <string>comment.rythmML</string>
             </dict>
           </dict>
         </dict>
@@ -230,7 +230,7 @@
           <key>match</key>
           <string>(\b\d+)</string>
           <key>name</key>
-          <string>constant.numeric.mysample</string>
+          <string>constant.numeric.rythmML</string>
         </dict>
        </array>
     </dict>
